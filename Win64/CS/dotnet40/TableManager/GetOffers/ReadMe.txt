@@ -1,4 +1,4 @@
-GetOffers application
+GetOffers application in win64 CS TableManager
 
 Brief
 ==================================================================================
