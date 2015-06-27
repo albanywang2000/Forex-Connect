@@ -1,13 +1,15 @@
-GetOffers application
+LockUpdates application
 
 Brief
 ==================================================================================
-This sample shows how to get actual information about offers.
+This sample shows how to stop tables updates.
 The sample performs the following actions:
 1. Login.
-2. Print actual bid and ask prices for all offers.
-3. Wait 10 seconds and print offer updates.
-4. Logout.
+2. Create a TrueMarketOpen order.
+3. Lock orders table updates after the order has been created.
+4. Print orders table information.
+5. Unlock orders table updates.
+6. Logout.
 
 Building the application
 ==================================================================================
@@ -40,5 +42,9 @@ Arguments
         If you do not have one, leave this argument as it is.
 {PIN} - Your pin code. Optional argument. Required only for users who have a pin.
         If a pin is not required, leave this argument as it is.
-{INSTRUMENT} - An instrument, for which you want to get live offer updates.
+{INSTRUMENT} - An instrument, for which you want to create an order.
         For example, EUR/USD. Mandatory argument.
+{BUYSELL} - The order direction. Possible values are: B - buy, S - sell. Mandatory argument.
+{LOTS} - Trade amount in lots. Optional argument.
+        For example, 2.
+{ACCOUNT} - Your Account ID. Optional argument.

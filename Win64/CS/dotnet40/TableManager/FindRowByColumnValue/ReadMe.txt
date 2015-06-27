@@ -1,13 +1,15 @@
-GetOffers application
+FindRowByColumnValue application
 
 Brief
 ==================================================================================
-This sample shows how to get actual information about offers.
+This sample shows how to find a table row by the column value.
 The sample performs the following actions:
 1. Login.
-2. Print actual bid and ask prices for all offers.
-3. Wait 10 seconds and print offer updates.
-4. Logout.
+2. Create an order with attached limit and stop orders. Store the request ID.
+3. Find all rows in the orders table with the request ID from the previous step.
+4. Find all rows in the orders table by multiple fields: Type and BuySell.
+5. Print information about the found rows.
+6. Logout.
 
 Building the application
 ==================================================================================
@@ -40,5 +42,9 @@ Arguments
         If you do not have one, leave this argument as it is.
 {PIN} - Your pin code. Optional argument. Required only for users who have a pin.
         If a pin is not required, leave this argument as it is.
-{INSTRUMENT} - An instrument, for which you want to get live offer updates.
+{INSTRUMENT} - An instrument, for which you want to create an order.
         For example, EUR/USD. Mandatory argument.
+{BUYSELL} - The order direction. Possible values are: B - buy, S - sell. Mandatory argument.
+{LOTS} - Trade amount in lots. Optional argument.
+        For example, 2.
+{ACCOUNT} - Your Account ID. Optional argument.

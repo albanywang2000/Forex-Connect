@@ -1,12 +1,13 @@
-GetOffers application
+PartialFill application
 
 Brief
 ==================================================================================
-This sample shows how to get actual information about offers.
+This sample shows how to process information when an order is executed partially
+due to the insufficient market liquidity.
 The sample performs the following actions:
 1. Login.
-2. Print actual bid and ask prices for all offers.
-3. Wait 10 seconds and print offer updates.
+2. Create a TrueMarketOpen order for the specified instrument.
+3. Wait for it to be fully executed or rejected. Print all order updates.
 4. Logout.
 
 Building the application
@@ -40,5 +41,7 @@ Arguments
         If you do not have one, leave this argument as it is.
 {PIN} - Your pin code. Optional argument. Required only for users who have a pin.
         If a pin is not required, leave this argument as it is.
-{INSTRUMENT} - An instrument, for which you want to get live offer updates.
+{INSTRUMENT} - An instrument, for which you want to create an order.
         For example, EUR/USD. Mandatory argument.
+{BUYSELL} - The order direction. Possible values are: B - buy, S - sell. Mandatory argument.
+{ACCOUNT} - Your Account ID. Optional argument.

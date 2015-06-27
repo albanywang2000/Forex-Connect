@@ -1,13 +1,16 @@
-GetOffers application
+OpenPositionNetting application
 
 Brief
 ==================================================================================
-This sample shows how to get actual information about offers.
+The sample shows how to open position on netting accounts. 
 The sample performs the following actions:
-1. Login.
-2. Print actual bid and ask prices for all offers.
-3. Wait 10 seconds and print offer updates.
-4. Logout.
+1. Login
+2. Check account type. If login does not have netting account then exit.
+3. Create Netting Order Monitor. Scan current opened positions and start monitoring positions.
+4. Open position.
+5. Wait for order execution.
+6. Print result of execution.
+7. Logout.
 
 Building the application
 ==================================================================================
@@ -40,5 +43,9 @@ Arguments
         If you do not have one, leave this argument as it is.
 {PIN} - Your pin code. Optional argument. Required only for users who have a pin.
         If a pin is not required, leave this argument as it is.
-{INSTRUMENT} - An instrument, for which you want to get live offer updates.
+{INSTRUMENT} - An instrument, for which you want to create an order.
         For example, EUR/USD. Mandatory argument.
+{BUYSELL} - The order direction. Possible values are: B - buy, S - sell. Mandatory argument.
+{LOTS} - Trade amount in lots. Optional argument.
+        For example, 2.
+{ACCOUNT} - Your Account ID. Optional argument.
