@@ -1,0 +1,6 @@
+C:\Program Files\Candleworks\ForexConnectAPIx64\samples\cs\dotnet40\NonTableManagerSamples\OpenPosition\bin\OpenPosition.exe.config
+C:\Program Files\Candleworks\ForexConnectAPIx64\samples\cs\dotnet40\NonTableManagerSamples\OpenPosition\bin\OpenPosition.exe
+C:\Program Files\Candleworks\ForexConnectAPIx64\samples\cs\dotnet40\NonTableManagerSamples\OpenPosition\bin\OpenPosition.pdb
+C:\Program Files\Candleworks\ForexConnectAPIx64\samples\cs\dotnet40\NonTableManagerSamples\OpenPosition\bin\fxcore2.dll
+C:\Program Files\Candleworks\ForexConnectAPIx64\samples\cs\dotnet40\NonTableManagerSamples\OpenPosition\obj\x64\Debug\OpenPosition.exe
+C:\Program Files\Candleworks\ForexConnectAPIx64\samples\cs\dotnet40\NonTableManagerSamples\OpenPosition\obj\x64\Debug\OpenPosition.pdb

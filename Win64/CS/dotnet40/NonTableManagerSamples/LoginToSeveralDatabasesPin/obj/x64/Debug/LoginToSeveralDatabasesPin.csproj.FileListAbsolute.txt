@@ -1,0 +1,6 @@
+C:\Program Files\Candleworks\ForexConnectAPIx64\samples\cs\dotnet40\NonTableManagerSamples\LoginToSeveralDatabasesPin\bin\LoginToSeveralDatabasesPin.exe.config
+C:\Program Files\Candleworks\ForexConnectAPIx64\samples\cs\dotnet40\NonTableManagerSamples\LoginToSeveralDatabasesPin\bin\LoginToSeveralDatabasesPin.exe
+C:\Program Files\Candleworks\ForexConnectAPIx64\samples\cs\dotnet40\NonTableManagerSamples\LoginToSeveralDatabasesPin\bin\LoginToSeveralDatabasesPin.pdb
+C:\Program Files\Candleworks\ForexConnectAPIx64\samples\cs\dotnet40\NonTableManagerSamples\LoginToSeveralDatabasesPin\bin\fxcore2.dll
+C:\Program Files\Candleworks\ForexConnectAPIx64\samples\cs\dotnet40\NonTableManagerSamples\LoginToSeveralDatabasesPin\obj\x64\Debug\LoginToSeveralDatabasesPin.exe
+C:\Program Files\Candleworks\ForexConnectAPIx64\samples\cs\dotnet40\NonTableManagerSamples\LoginToSeveralDatabasesPin\obj\x64\Debug\LoginToSeveralDatabasesPin.pdb
